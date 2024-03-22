@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="st.css">
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action=" " class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/neckband.jpg" width="100px" height="50px">
+                <div class="content">
+                    <h3>rice</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/neckband.jpg" width="100px" height="50px">
+                <div class="content">
+                    <h3>wheat</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/neckband.jpg" width="100px" height="50px">
+                <div class="content">
+                    <h3>moong</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/neckband.jpg" width="100px" height="50px" alt="">
+                <div class="content">
+                    <h3>spices</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+
+            <div class="total">total :$19.69/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login here</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forgot your password <a href="#">click here</a></p>
+            <p>don't have an account<a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and organic products</span> for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore
+                nisi.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading">our<span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/neckband.jpg" width="150px" height="100px">
+                <h3> fresh and organic</h3>
+                <p> the reasons to buy organic keep piling up!!!!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/neckband.jpg" width="150px" height="100px" alt="">
+                <h3> free delivery</h3>
+                <p>"Should I be offering free shipping?"</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/neckband.jpg" width="150px" height="100px" alt="">
+                <h3> easy payments</h3>
+                <p>Easy Pay Incepted and incorporated to create a digitally inclusive world.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    </section>
+    <!-- products section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">our<span>products</span></h1>
+
+        <div class=" swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                    <h3>fresh oranges</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                    <h3>onion</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                    <h3>meat</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                    <h3>dairy products</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                    <h3>chocolates</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+
+                </div>
+            </div>
+        </div>
+        
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>maggie pasta's</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>beverages</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>maggie pasta's</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>beverages</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div><div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>maggie pasta's</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/neckband.jpg" width="180px" height="150px" alt="">
+                <h3>beverages</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+    
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- product section ends -->
+    <!--     
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/neckband.jpg " height="100px" width="150px" alt="">
+                <h3>fresh vegetables</h3>
+                <p>upto 45% offer</p>
+                <a href="#" class="btn">show now</a>
+            </div>
+            <div class="box">
+                <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                <h3>fresh fruits</h3>
+                <p>upto 45% offer</p>
+                <a href="#" class="btn">show now</a>
+            </div>
+            <div class="box">
+                <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                <h3>dairy products</h3>
+                <p>upto 45% offer</p>
+                <a href="#" class="btn">show now</a>
+            </div>
+            <div class="box">
+                <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                <h3>fresh meat</h3>
+                <p>upto 45% offer</p>
+                <a href="#" class="btn">show now</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                    <p>Overall a great site with not only great design but excellent
+                        content as well.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-hald-alt"></i>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                        <p>The content flows very well and is well written. All of the
+                            information is in the appropriate place.</p>
+                        <h3>menon singh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-hald-alt"></i>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                            <p>The design is very consistent throughout all of the pages- clean and
+                                easy to read. Well done!</p>
+                            <h3>joel rao</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-hald-alt"></i>
+                            </div>
+                            <div class="swiper-slide box">
+                                <img src="images/neckband.jpg" height="100px" width="150px" alt="">
+                                <p>It is easy to navigate this site because all of the links are right
+                                    there on the left hand side</p>
+                                <h3>jiya shankar</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-hald-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>
+<script>
+    let searchForm = document.querySelector('.search-form');
+
+    document.querySelector('#search-btn').onclick = () => {
+        searchForm.classList.toggle('active');
+        shoppingCart.classList.remove('active');
+        loginForm.classList.remove('active');
+        navbar.classList.remove('active');
+    }
+    let shoppingCart = document.querySelector('.shopping-cart');
+
+    document.querySelector('#cart-btn').onclick = () => {
+        shoppingCart.classList.toggle('active');
+        searchForm.classList.remove('active');
+        loginForm.classList.remove('active');
+        navbar.classList.remove('active');
+    }
+
+    let loginForm = document.querySelector('.login-form');
+    document.querySelector('#login-btn').onclick = () => {
+
+        loginForm.classList.toggle('active');
+        searchForm.classList.remove('active');
+        shoppingCart.classList.remove('active');
+        navbar.classList.remove('active');
+    }
+    let navbar = document.querySelector('.navbar');
+
+    document.querySelector('#menu-btn').onclick = () => {
+
+
+        navbar.classList.toggle('active');
+        searchForm.classList.remove('active');
+        shoppingCart.classList.toggle('active');
+
+        navbar.classList.remove('active');
+
+    }
+
+
+
+    window.onscroll = () => {
+        searchForm.classList.remove('active');
+        navbar.classList.remove('active');
+        loginForm.classList.remove('active');
+        navbar.classList.remove('active');
+    }
+    var swiper = new Swiper(".product-slider", {
+        loop: true,
+        spaceBetween: 20,
+        autoplay: {
+            delay: 7500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1020: {
+                slidesPerView: 3,
+            },
+        },
+    });
+
+    var swiper = new Swiper(".review-slider", {
+        loop: true,
+        spaceBetween: 20,
+        autoplay: {
+            delay: 7500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1020: {
+                slidesPerView: 3,
+            },
+        },
+    });
+</script>
