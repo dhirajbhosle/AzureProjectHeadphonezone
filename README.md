@@ -3,7 +3,7 @@ Headphonezone is an open source web project where user can View, search, and ord
 
 **Contributors:**
 
-- Dhiraj Bhosle. (dhirajbhosle (github.com)).
+- Dhiraj Bhosle. (dhirajbhosle (github.com)).  
 - Mithilesh Vishwakarma. (47Mith (Mithilesh Vishwakarma) (github.com) ).
 - Aishwarya Ambre. (AishwaryaAmbre (github.com) ).
 
