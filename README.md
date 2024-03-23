@@ -138,7 +138,7 @@ The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bo
 Name: HeadphoneZone
 Password: Mithilesh@123
 5.	Then start the installed Xampp server in the virtual machine.
-6.	Start any new tab on your machine and type http://www.futureproject.shop/Headphonezone18/ 
+6.	Start any new tab on your machine and type http://www.futureproject.shop/HeadphoneZone18/ 
 7.	Futureproject is our DNS service.
 8.	As soon as the website is started user can view the website interface and by clicking login button a login page will be displayed, if user is new user one can register by clicking not a member sign up!
 9.	User can create a profile and can navigate on the website.
