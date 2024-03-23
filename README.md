@@ -18,13 +18,13 @@ Admins has the ability to manage orders, process payments, and update order stat
 
 **Prerequisites:**
 
-	Platform : Microsoft Azure 
-	PHP , CSS, HTML
-	Xampp
-	Azure Monitor and Alerts
-	Azure Virtual Machine Deployment
-	DNS Zones and Azure DNS
-	Azure Language Services & Chatbot
+- Platform : Microsoft Azure
+- PHP , CSS, HTML
+- Xampp
+- Azure Monitor and Alerts
+- Azure Virtual Machine Deployment
+- DNS Zones and Azure DNS
+- Azure Language Services & Chatbot
 
 The Azure DNS service provides a globally distributed and high-availability name server infrastructure for managing domain names and DNS records. Azure DNS simplifies management, ensures security, and offers scalability for your DNS needs. It’s a powerful tool for maintaining your domain names and DNS records in the cloud.
 Azure Monitor helps you proactively detect and address issues before users notice them. It provides monitoring and alerting capabilities for various data sources. Azure Monitor ensures high availability, scalability, and unlimited data transfer. It’s a crucial tool for maintaining the health and performance of your Azure resources.
@@ -132,7 +132,7 @@ The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bo
 **How to use the Project:**
 
 1.	User is required to visit the Microsoft azure portal(https://portal.azure.com)
-2.	Azure account ID- mithileshvish@outlook.com 
+2.	Azure account ID- aishwarya191141@mccmulund.ac.in 
 3.	Followed by user is required to start the Virtual machine, enable the alerts , and start the AI service that is chatbot.
 4.	As the virtual machines gets started fill the password mentioned below ad start using the virtual machine
 Name: HeadphoneZone
