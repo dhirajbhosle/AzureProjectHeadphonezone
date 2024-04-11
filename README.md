@@ -3,9 +3,9 @@ Headphonezone is an open source web project where user can View, search, and ord
 
 **Contributors:**
 
-- Dhiraj Bhosle. (dhirajbhosle (github.com)).
-- Mithilesh Vishwakarma. (47Mith (Mithilesh Vishwakarma) (github.com) ).
-- Aishwarya Ambre. (AishwaryaAmbre (github.com) ).
+- Dhiraj Bhosle. (https://github.com/DBhosle).
+- Mithilesh Vishwakarma. (https://github.com/MithileshVish).
+- Aishwarya Ambre. (https://github.com/AishAmbre).
 
 **Project Summary:**
 
@@ -132,20 +132,20 @@ The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bo
 **How to use the Project:**
 
 1.	User is required to visit the Microsoft azure portal(https://portal.azure.com)
-2.	Azure account ID- aishwarya191141@mccmulund.ac.in 
+2.	Azure account ID- https://github.com/AishAmbre 
 3.	Followed by user is required to start the Virtual machine, enable the alerts , and start the AI service that is chatbot.
 4.	As the virtual machines gets started fill the password mentioned below ad start using the virtual machine
-Name: HeadphoneZone
-Password: Mithilesh@123
+Name: FutureProject
+Password: eaerphone@123
 5.	Then start the installed Xampp server in the virtual machine.
-6.	Start any new tab on your machine and type http://www.futureproject.shop/HeadphoneZone18/ 
+6.	Start any new tab on your machine and type http://www.futureproject.shop/HeadphoneZone 
 7.	Futureproject is our DNS service.
 8.	As soon as the website is started user can view the website interface and by clicking login button a login page will be displayed, if user is new user one can register by clicking not a member sign up!
 9.	User can create a profile and can navigate on the website.
 10.	The admin username and password are as follows:  
-Admin
-Username: abc@gmail.com
-Password: 123
+
+- Admin Username: abc@gmail.com
+- Password: 123
 
 •	URL of Documentation (PDF file):
 
@@ -157,6 +157,6 @@ https://docs.google.com/document/d/1GLr6PXN7jMEMp-_oQ93qi6hvXrsVbcle/edit?usp=sh
 
 •	URL of Video of the project : 
 
-https://drive.google.com/file/d/1pcodfSb5DizNzye--HEs3F0ZzGgT8ves/view?usp=sharing 
+https://drive.google.com/file/d/1SqaligRw1ervqFaRENoviL19Z5nzQcpD/view?usp=sharing 
 
 For more information about the project please refer the PDF file attached.
