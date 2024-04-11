@@ -132,7 +132,7 @@ The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bo
 **How to use the Project:**
 
 1.	User is required to visit the Microsoft azure portal(https://portal.azure.com)
-2.	Azure account ID- https://github.com/AishAmbre 
+2.	Azure account ID- aishwaryaambre35@gmail.com 
 3.	Followed by user is required to start the Virtual machine, enable the alerts , and start the AI service that is chatbot.
 4.	As the virtual machines gets started fill the password mentioned below ad start using the virtual machine
 - Name: FutureProject
