@@ -143,8 +143,8 @@ Password: eaerphone@123
 8.	As soon as the website is started user can view the website interface and by clicking login button a login page will be displayed, if user is new user one can register by clicking not a member sign up!
 9.	User can create a profile and can navigate on the website.
 10.	The admin username and password are as follows:  
-Admin
-- Username: abc@gmail.com
+
+- Admin Username: abc@gmail.com
 - Password: 123
 
 •	URL of Documentation (PDF file):
